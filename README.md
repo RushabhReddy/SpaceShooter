@@ -1,4 +1,4 @@
-# CPPND: Capstone Space Game
+# CPPND: Space Shooter Game
 
 The Capstone project is a thrilling game that takes inspiration from the classic 2D shoot 'em up genre. In this simplified version, the player must eliminate the enemy before it reaches the other side, and they have five chances to succeed before losing the game.
 
