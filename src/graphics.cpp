@@ -22,8 +22,8 @@ void Graphics::init(SDL_Renderer *_sdl_renderer)
     }
 
     // Open the font
-    gFontTittle = TTF_OpenFont("res/textures/UglyByte.otf", 70);
-    gFontText = TTF_OpenFont("res/textures/UglyByte.otf", 35);
+    gFontTittle = TTF_OpenFont("res/textures/ARCADECLASSIC.ttf", 70);
+    gFontText = TTF_OpenFont("res/textures/ARCADECLASSIC.ttf", 35);
 }
 
 // Load Texture
