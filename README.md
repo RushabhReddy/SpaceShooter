@@ -1,13 +1,10 @@
 # CPPND: Capstone Space Game
 
-The Capstone project is inspired in 2D shoot 'em up. This is a simple version, where player needs to destroy the enemy before reaches the other side. Player has five opportunity before loose the game.
+The Capstone project is a thrilling game that takes inspiration from the classic 2D shoot 'em up genre. In this simplified version, the player must eliminate the enemy before it reaches the other side, and they have five chances to succeed before losing the game.
 
-Here how you control your spaceship,
+Controlling the spaceship is intuitive and straightforward. The player can use the arrow keys to move the spaceship in any direction they desire. Additionally, the spacebar can be used to fire a bullet from the spaceship, which adds an exciting element of action to the game.
 
-- Arrows key to move spaceship.
-- Spacebar to fire bullet.
-
-Finally, this project was following the principles we have learned throughout this Nanodegree Program. Still a lot of opportunity for code refactoring and add more C++ features.
+This project has been developed with a strong emphasis on the principles taught throughout the Nanodegree Program. However, there is still ample opportunity for code refactoring and the addition of more advanced C++ features, which would further enhance the game's functionality and performance.
 
 ## Dependencies for Running Locally
 * cmake >= 3.7
