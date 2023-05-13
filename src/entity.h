@@ -3,39 +3,38 @@
 
 #include "SDL.h"
 
-class Entity {
-    private:
-        int e_x;
-        int e_y;
-        int e_speed;
-        bool e_isalive;
-        SDL_Texture *e_texture;
+class Entity
+{
+private:
+    int e_x;
+    int e_y;
+    int e_speed;
+    bool e_isalive;
+    SDL_Texture *e_texture;
 
-    public:
-        
-        // A default constructor
-        Entity() : e_x(1), e_y(1), e_speed(0), e_isalive(true), e_texture(nullptr){}
+public:
+    // A default constructor
+    Entity() : e_x(1), e_y(1), e_speed(0), e_isalive(true), e_texture(nullptr) {}
 
-        // A specific constructor
-        Entity(int x, int y, int speed, bool isalive, SDL_Texture *texture) : e_x(x), e_y(y), e_speed(speed), e_isalive(isalive), e_texture(texture){}
-       
-        void moveTo(int x, int y);
+    // A specific constructor
+    Entity(int x, int y, int speed, bool isalive, SDL_Texture *texture) : e_x(x), e_y(y), e_speed(speed), e_isalive(isalive), e_texture(texture) {}
 
-        void setSpeed(int speed);
+    void moveTo(int x, int y);
 
-        void setStatus( bool isalive);
+    void setSpeed(int speed);
 
-        void addTexture(SDL_Texture *texture);
+    void setStatus(bool isalive);
 
-        int currentY();
+    void addTexture(SDL_Texture *texture);
 
-        int currentX();
+    int currentY();
 
-        int currentSpeed();
+    int currentX();
 
-        bool currentStatus();
+    int currentSpeed();
 
-        SDL_Texture* getTexture();
+    bool currentStatus();
 
+    SDL_Texture *getTexture();
 };
 #endif
