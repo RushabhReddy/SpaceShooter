@@ -23,11 +23,12 @@ For detailed installation instructions, please refer to the [SDL2 installation g
 
 Follow these steps to build and run the game:
 
-1. Clone this repository.
-2. Open a terminal and navigate to the project's top-level directory.
-3. Create a build directory: `mkdir build && cd build`
-4. Compile the code: `cmake .. && make`
-5. Run the game: `./SpaceGame`
+1. Install dependencies `apt-get install -y libsdl2-image-dev libsdl2-ttf-dev libsdl2-mixer-dev` (Ubuntu)
+2. Clone this repository.
+3. Open a terminal and navigate to the project's top-level directory.
+4. Create a build directory: `mkdir build && cd build`
+5. Compile the code: `cmake .. && make`
+6. Run the game: `./SpaceGame`
 
 ## Project Structure
 
