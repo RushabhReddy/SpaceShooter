@@ -31,14 +31,14 @@ Follow these steps to build and run the game:
 
 ## Project Structure
 
-The project's directory layout is as follows:
+## The project's directory layout is as follows:
 
-.
-├── src                 # Source files.
-├── res                 # Game resources like sounds, fonts, sprites, etc.
-├── cmake               # Build tools.
-├── CMakeLists.txt
-└── README.md
+    .
+    ├── src                     # Source files.
+    ├── res                     # Game resources like sounds, fonts, sprites, etc.
+    ├── cmake                   # Tools.
+    ├── CMakeLists.txt
+    └── README.md
 
 
 The project's class structure is as follows:
