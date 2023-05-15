@@ -1,6 +1,6 @@
-# CPPND: Space Shooter Game
+# Space Shooter Game
 
-This project is a thrilling game inspired by the classic 2D shoot 'em up genre. The player's objective is to eliminate the enemy before it reaches the other side. The player has five chances to succeed before losing the game.
+This project is an exciting game that draws inspiration from the beloved 2D shoot 'em up genre. The main goal of the player is to eliminate the enemy before it reaches the opposite side of the screen. The player's performance is measured by five chances to succeed, with the game ending if they fail to do so.
 
 ## Game Instructions
 
