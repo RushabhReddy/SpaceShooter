@@ -84,8 +84,6 @@ The project's class structure is as follows:
 - References are used in function declarations.
 - Destructors are used appropriately.
 
-### Concurrency
 
-This project does not currently include any concurrency features.
 
 
